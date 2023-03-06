@@ -1,7 +1,13 @@
 {
-    "azureLogicAppsStandard.deploySubpath": ".",
-    "azureLogicAppsStandard.projectLanguage": "JavaScript",
-    "azureLogicAppsStandard.projectRuntime": "~4",
-    "debug.internalConsoleOptions": "neverOpen",
-    "azureFunctions.suppressProject": true
+  "azureLogicAppsStandard.deploySubpath": ".",
+  "azureLogicAppsStandard.projectLanguage": "JavaScript",
+  "azureLogicAppsStandard.projectRuntime": "~4",
+  "debug.internalConsoleOptions": "neverOpen",
+  "azureFunctions.suppressProject": true,
+  "github.codespaces.defaultExtensions": [
+    "ms-azuretools.vscode-azurefunctions",
+    "ms-azuretools.vscode-azurelogicapps",
+    "azurite.azurite",
+    "ms-vscode.azure-account"
+  ]
 }
